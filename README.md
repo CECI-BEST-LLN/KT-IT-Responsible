@@ -66,6 +66,8 @@ La aussi plusieur possibilités en fonction de ce que vous avez fait précédemm
 
 ## Vous avez fait un Git clone
 
+Malheureusement Git ne permet plus de push des modification si nous avons fait un git clone avec HTTP, donc cette partie ne parle que pour ceux qui on utilisé les SSH
+
 Si vous avez fait un git clone et donc que vos fichier sont dans votre PC, il suffit de remplacer ou de modifier ce que vous avez télécharger par le git clone par la nouvelle version du KT
 
 ouvrez un terminal dans le dossiers qui contient le KT et il suffi maintenant d'ajoute vos nouveaux fichier avec la commande
@@ -102,3 +104,5 @@ on arrive sur cette page et il suffit d'ajouter les fichiers necessaire et de do
 # Autres
 
 Pour ceux qui on facile avec Git il faut pas hesiter a jouer avec, ajouter des modifications, vous pouvez meme faire différente branche pour des versions différente. Faite comme vous voulez mais c'est vous le responsable si il y a des problemes ;)
+
+Si vous rencontrer des problemes avec Git je vous conseille d'utiliser GitKraken qui est une interface graphique qui est facile a utiliser pour justement faire les commande a votre place 
