@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.4.26)  16 MAY 2023 13:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.4.26)  3 JUN 2023 09:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -468,120 +468,115 @@ LaTeX Info: Redefining \up on input line 15.
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts
 /enc/dvips/cm-super/cm-super-t1.enc}]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 41.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 43.
 
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 41.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 43.
 
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
-LaTeX Warning: Reference `' on page 1 undefined on input line 41.
+LaTeX Warning: Reference `' on page 1 undefined on input line 43.
 
-<img/MiseAJours.png, id=94, 691.08188pt x 541.27219pt>
+<img/MiseAJours.png, id=106, 691.08188pt x 541.27219pt>
 File: img/MiseAJours.png Graphic file (type png)
 <use img/MiseAJours.png>
-Package pdftex.def Info: img/MiseAJours.png  used on input line 47.
+Package pdftex.def Info: img/MiseAJours.png  used on input line 49.
 (pdftex.def)             Requested size: 281.85585pt x 220.75848pt.
 
-LaTeX Warning: Reference `' on page 1 undefined on input line 61.
+LaTeX Warning: Reference `' on page 1 undefined on input line 63.
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.65 	 	
+l.67 	 	
          [1 <./img/MiseAJours.png (PNG copy)>]
-<img/CreerPage.png, id=106, 400.49625pt x 562.35094pt>
+<img/CreerPage.png, id=118, 400.49625pt x 562.35094pt>
 File: img/CreerPage.png Graphic file (type png)
 <use img/CreerPage.png>
-Package pdftex.def Info: img/CreerPage.png  used on input line 74.
+Package pdftex.def Info: img/CreerPage.png  used on input line 76.
 (pdftex.def)             Requested size: 281.85585pt x 395.78816pt.
-<img/URL.png, id=107, 1320.43312pt x 368.1253pt>
+<img/URL.png, id=119, 1320.43312pt x 368.1253pt>
 File: img/URL.png Graphic file (type png)
 <use img/URL.png>
-Package pdftex.def Info: img/URL.png  used on input line 81.
+Package pdftex.def Info: img/URL.png  used on input line 83.
 (pdftex.def)             Requested size: 469.75499pt x 130.96344pt.
-<img/Modele.png, id=108, 240.14719pt x 291.33844pt>
+<img/Modele.png, id=120, 240.14719pt x 291.33844pt>
 File: img/Modele.png Graphic file (type png)
 <use img/Modele.png>
-Package pdftex.def Info: img/Modele.png  used on input line 88.
+Package pdftex.def Info: img/Modele.png  used on input line 90.
 (pdftex.def)             Requested size: 140.92792pt x 170.97241pt.
  [2 <./img/CreerPage.png (PNG copy)>]
-<img/PageCreate.png, id=113, 1443.89438pt x 677.53125pt>
+<img/PageCreate.png, id=125, 1443.89438pt x 677.53125pt>
 File: img/PageCreate.png Graphic file (type png)
 <use img/PageCreate.png>
-Package pdftex.def Info: img/PageCreate.png  used on input line 97.
+Package pdftex.def Info: img/PageCreate.png  used on input line 99.
 (pdftex.def)             Requested size: 385.20253pt x 180.74416pt.
-<img/Menu.png, id=114, 248.42813pt x 514.17094pt>
+<img/Menu.png, id=126, 248.42813pt x 514.17094pt>
 File: img/Menu.png Graphic file (type png)
 <use img/Menu.png>
-Package pdftex.def Info: img/Menu.png  used on input line 106.
+Package pdftex.def Info: img/Menu.png  used on input line 108.
 (pdftex.def)             Requested size: 234.87749pt x 486.12949pt.
-<img/Menu1.png, id=115, 606.76688pt x 596.98032pt>
+<img/Menu1.png, id=127, 606.76688pt x 596.98032pt>
 File: img/Menu1.png Graphic file (type png)
 <use img/Menu1.png>
-Package pdftex.def Info: img/Menu1.png  used on input line 113.
+Package pdftex.def Info: img/Menu1.png  used on input line 115.
 (pdftex.def)             Requested size: 328.82706pt x 323.53053pt.
  [3 <./img/URL.png (PNG copy)> <./img/Modele.png (PNG copy)> <./img/PageCreate.
 png (PNG copy)>] [4 <./img/Menu.png (PNG copy)>]
-<img/EditPage.png, id=124, 246.1697pt x 158.09062pt>
+<img/EditPage.png, id=136, 246.1697pt x 158.09062pt>
 File: img/EditPage.png Graphic file (type png)
 <use img/EditPage.png>
-Package pdftex.def Info: img/EditPage.png  used on input line 126.
+Package pdftex.def Info: img/EditPage.png  used on input line 128.
 (pdftex.def)             Requested size: 281.85585pt x 181.01639pt.
-<img/EditPage1.png, id=125, 1222.5675pt x 121.20282pt>
+<img/EditPage1.png, id=137, 1222.5675pt x 121.20282pt>
 File: img/EditPage1.png Graphic file (type png)
 <use img/EditPage1.png>
-Package pdftex.def Info: img/EditPage1.png  used on input line 127.
+Package pdftex.def Info: img/EditPage1.png  used on input line 129.
 (pdftex.def)             Requested size: 375.80542pt x 37.25623pt.
  [5 <./img/Menu1.png (PNG copy)> <./img/EditPage.png (PNG copy)> <./img/EditPag
 e1.png (PNG copy)>]
-<img/OVH.png, id=132, 653.44125pt x 342.5297pt>
+<img/OVH.png, id=144, 653.44125pt x 342.5297pt>
 File: img/OVH.png Graphic file (type png)
 <use img/OVH.png>
-Package pdftex.def Info: img/OVH.png  used on input line 155.
+Package pdftex.def Info: img/OVH.png  used on input line 157.
 (pdftex.def)             Requested size: 234.87749pt x 123.1172pt.
-<img/OVH1.png, id=133, 1440.13031pt x 664.73344pt>
+<img/OVH1.png, id=145, 1440.13031pt x 664.73344pt>
 File: img/OVH1.png Graphic file (type png)
 <use img/OVH1.png>
-Package pdftex.def Info: img/OVH1.png  used on input line 162.
+Package pdftex.def Info: img/OVH1.png  used on input line 164.
 (pdftex.def)             Requested size: 375.80542pt x 173.45547pt.
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
-67.
+69.
 
 (/usr/share/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 ) [6 <./img/OVH.png (PNG copy)>]
-<img/OVH2.png, id=143, 1151.05031pt x 465.99094pt>
+<img/OVH2.png, id=155, 1151.05031pt x 465.99094pt>
 File: img/OVH2.png Graphic file (type png)
 <use img/OVH2.png>
-Package pdftex.def Info: img/OVH2.png  used on input line 171.
+Package pdftex.def Info: img/OVH2.png  used on input line 173.
 (pdftex.def)             Requested size: 375.80542pt x 152.14207pt.
-[7 <./img/OVH1.png (PNG copy)> <./img/OVH2.png (PNG copy)>] [8] [9] (./KT.aux)
+[7 <./img/OVH1.png (PNG copy)> <./img/OVH2.png (PNG copy)>] [8] [9] [10]
+(./KT.aux)
 
 LaTeX Warning: There were undefined references.
 
-
-Package rerunfilecheck Warning: File `KT.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `KT.out':
-(rerunfilecheck)             Before: EE0C47B1DE06A17E1A0B14932185EAFE;2328
-(rerunfilecheck)             After:  1C426D3A66AF5E21F4A8816DAB49120D;2422.
+Package rerunfilecheck Info: File `KT.out' has not changed.
+(rerunfilecheck)             Checksum: A54E8948931413F5630A668354454786;2555.
  ) 
 Here is how much of TeX's memory you used:
- 12611 strings out of 476025
- 194002 string characters out of 5796532
+ 12617 strings out of 476025
+ 194060 string characters out of 5796532
  1859388 words of memory out of 5000000
- 32828 multiletter control sequences out of 15000+600000
+ 32831 multiletter control sequences out of 15000+600000
  528606 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,7n,76p,581b,490s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -595,10 +590,10 @@ fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf-dist/fonts/type1/pub
 lic/cm-super/sfti1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sf
 ti1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></us
 r/share/texmf-dist/fonts/type1/public/cm-super/sfxc1728.pfb>
-Output written on KT.pdf (10 pages, 1202102 bytes).
+Output written on KT.pdf (11 pages, 1204531 bytes).
 PDF statistics:
- 242 PDF objects out of 1000 (max. 8388607)
- 192 compressed objects within 2 object streams
- 50 named destinations out of 1000 (max. 500000)
- 221 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 258 PDF objects out of 1000 (max. 8388607)
+ 206 compressed objects within 3 object streams
+ 53 named destinations out of 1000 (max. 500000)
+ 245 words of extra memory for PDF output out of 10000 (max. 10000000)
 
