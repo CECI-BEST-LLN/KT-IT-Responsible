@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.5.26)  26 MAY 2024 01:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.5.26)  26 MAY 2024 16:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -397,7 +397,7 @@ LaTeX Info: Redefining \up on input line 15.
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-<img/AccessSite.png, id=105, 581.17125pt x 594.22pt>
+<img/AccessSite.png, id=109, 581.17125pt x 594.22pt>
 File: img/AccessSite.png Graphic file (type png)
 <use img/AccessSite.png>
 Package pdftex.def Info: img/AccessSite.png  used on input line 50.
@@ -407,22 +407,23 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
                    \relax 
 l.59 	\newpage
                [1 <./img/AccessSite.png>]
-<img/CreerPage.png, id=114, 333.245pt x 231.86626pt>
+<img/CreerPage.png, id=118, 333.245pt x 231.86626pt>
 File: img/CreerPage.png Graphic file (type png)
 <use img/CreerPage.png>
 Package pdftex.def Info: img/CreerPage.png  used on input line 64.
 (pdftex.def)             Requested size: 281.85585pt x 196.1249pt.
-<img/Mask.png, id=115, 316.18124pt x 362.35374pt>
+<img/Mask.png, id=119, 316.18124pt x 362.35374pt>
 File: img/Mask.png Graphic file (type png)
 <use img/Mask.png>
 Package pdftex.def Info: img/Mask.png  used on input line 70.
 (pdftex.def)             Requested size: 281.85585pt x 323.03566pt.
  [2 <./img/CreerPage.png> <./img/Mask.png>]
-<img/TemplateBoard.png, id=122, 259.97125pt x 75.28125pt>
+<img/TemplateBoard.png, id=126, 259.97125pt x 75.28125pt>
 File: img/TemplateBoard.png Graphic file (type png)
 <use img/TemplateBoard.png>
 Package pdftex.def Info: img/TemplateBoard.png  used on input line 94.
 (pdftex.def)             Requested size: 281.85585pt x 81.61841pt.
+ [3 <./img/TemplateBoard.png>]
 LaTeX Font Info:    Trying to load font information for U+msa on input line 99.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -431,42 +432,44 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 99.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<img/OVH.png, id=125, 653.44125pt x 342.5297pt>
-File: img/OVH.png Graphic file (type png)
-<use img/OVH.png>
-Package pdftex.def Info: img/OVH.png  used on input line 106.
-(pdftex.def)             Requested size: 234.87749pt x 123.1172pt.
-<img/OVH1.png, id=126, 1440.13031pt x 664.73344pt>
-File: img/OVH1.png Graphic file (type png)
-<use img/OVH1.png>
-Package pdftex.def Info: img/OVH1.png  used on input line 113.
-(pdftex.def)             Requested size: 375.80542pt x 173.45547pt.
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 118.
- (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-) [3 <./img/TemplateBoard.png>]
-<img/OVH2.png, id=138, 1151.05031pt x 465.99094pt>
-File: img/OVH2.png Graphic file (type png)
-<use img/OVH2.png>
-Package pdftex.def Info: img/OVH2.png  used on input line 122.
-(pdftex.def)             Requested size: 375.80542pt x 152.14207pt.
- [4 <./img/OVH.png (PNG copy)> <./img/OVH1.png (PNG copy)> <./img/OVH2.png (PNG copy)>] [5] [6] [7] (./KT.aux)
+<img/NomsDomaine.png, id=133, 829.0975pt x 380.42125pt>
+File: img/NomsDomaine.png Graphic file (type png)
+<use img/NomsDomaine.png>
+Package pdftex.def Info: img/NomsDomaine.png  used on input line 105.
+(pdftex.def)             Requested size: 281.85585pt x 129.32408pt.
+<img/OVH-Redirect.png, id=134, 1148.29pt x 785.93625pt>
+File: img/OVH-Redirect.png Graphic file (type png)
+<use img/OVH-Redirect.png>
+Package pdftex.def Info: img/OVH-Redirect.png  used on input line 112.
+(pdftex.def)             Requested size: 234.87749pt x 160.7582pt.
+ [4 <./img/NomsDomaine.png> <./img/OVH-Redirect.png>]
+<img/FTP-Explorer.png, id=144, 1488.56125pt x 745.78625pt>
+File: img/FTP-Explorer.png Graphic file (type png)
+<use img/FTP-Explorer.png>
+Package pdftex.def Info: img/FTP-Explorer.png  used on input line 118.
+(pdftex.def)             Requested size: 281.85585pt x 141.21153pt.
+<img/htaccess.png, id=145, 1028.84375pt x 294.09875pt>
+File: img/htaccess.png Graphic file (type png)
+<use img/htaccess.png>
+Package pdftex.def Info: img/htaccess.png  used on input line 124.
+(pdftex.def)             Requested size: 281.85585pt x 80.56999pt.
+ [5 <./img/FTP-Explorer.png> <./img/htaccess.png>] [6] [7] (./KT.aux)
 Package rerunfilecheck Info: File `KT.out' has not changed.
-(rerunfilecheck)             Checksum: AE28B3A1A1568F2DADFE2C830C58D7DD;2634.
+(rerunfilecheck)             Checksum: 67587CDB815911BE4AA8F7EBF82843BF;2657.
  ) 
 Here is how much of TeX's memory you used:
- 12465 strings out of 478287
- 191717 string characters out of 5849289
- 505252 words of memory out of 5000000
- 30439 multiletter control sequences out of 15000+600000
- 484802 words of font info for 67 fonts, out of 8000000 for 9000
+ 12438 strings out of 478287
+ 191270 string characters out of 5849289
+ 505206 words of memory out of 5000000
+ 30418 multiletter control sequences out of 15000+600000
+ 482790 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,7n,63p,538b,447s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfxc1728.pfb>
-Output written on KT.pdf (8 pages, 695643 bytes).
+ 60i,7n,63p,538b,449s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfxc1728.pfb>
+Output written on KT.pdf (8 pages, 559048 bytes).
 PDF statistics:
- 238 PDF objects out of 1000 (max. 8388607)
- 193 compressed objects within 2 object streams
- 49 named destinations out of 1000 (max. 500000)
- 220 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 237 PDF objects out of 1000 (max. 8388607)
+ 189 compressed objects within 2 object streams
+ 48 named destinations out of 1000 (max. 500000)
+ 233 words of extra memory for PDF output out of 10000 (max. 10000000)
 

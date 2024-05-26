@@ -94,100 +94,90 @@
 		\includegraphics[width=0.6\textwidth]{img/TemplateBoard.png}
 	\end{figure} 
 	
-	
+\newpage
 \section{OVH}
-	OVH est notre hebergeur pour le site\footnote{On espère que le serveur ne brulera pas} et qui attribue les domaines \textit{www.best-lln.eu} et \textit{www.best-lln.be}\footnote{C'est le nom de domaine de l'ancien site, on a garder le nom de domaine et fait une redirection vers le nouveau site, ça coute pas trop cher donc a voir avec la trésoreries si vous le laisser ou pas}. 
-	\subsection{Creer un sauvegarde}
-	\label{creersauvegarde}
-		Pour ce faire, il faut se connecter au compte OVH, se rendre sur l'hébergement \textit{best.lln.eu}
-		
-		\begin{figure}[htp]
-			\centering
-			\includegraphics[width=0.5\textwidth]{img/OVH.png}
-		\end{figure}
-		
-		\vfill
-		
-		\begin{figure}[htp]
-			\centering
-			\includegraphics[width=.8\textwidth]{img/OVH1.png}
-		\end{figure}
-		
-		Il y a plein de fonctionnalité que vous pouvez découvrir, ne faite pas trop de betise cela-dit. Pour la sauvegarde, il faut aller dans Bases de données. Une fois la dedans, il suffit de cliquer sur les 3 points et faire "Creer une sauvegarde" et choisir la date d'aujourdhui.
-		
-		Pour l'instant il y a encore de la place pour pas mal de sauvegarde mais au fil du temps hesiter pas a retirer les trop ancienne. Et si vous vous chauffer vous pouvez mettre les anciennes sauvegarde dans la \textit{Wayback machine}\footnote{\url{https://archive.org/web/}} et ainsi voir dans le futur a quoi ressemblait le site avant.
-		
-		\begin{figure}[htp]
-			\centering
-			\includegraphics[width=.8\textwidth]{img/OVH2.png}
-		\end{figure}
-		
+	Maintenant OVH nous sert que pour nos noms de domaine: \textit{www.best-lln.eu} et \textit{www.best-lln.be}\footnote{C'est le nom de domaine de l'ancien site, on a garder le nom de domaine et fait une redirection vers le nouveau site, ça coute pas trop cher donc a voir avec la trésorerie si vous le laisser ou pas}. 
 	
-	\subsection{Récupérer une sauvegarde du site}
-		Si jamais tu as fait une connerie, ou que tu veux revenir en arrière, il suffit de faire comment dans la \autoref{creersauvegarde} mais au lieu de créer un nouvelle sauvegarde, il faut \textit{Restaurer une sauvegarde} et voila.
-		
+	\subsection{Noms de domaines}
+	Comme dis juste au dessus, on a deux noms de domaines. La seule chose que tu as à faire, c'est de pas oublier de les renouveler. Oublie pas de metrte des rappels ou autres, ça tombe juste après les examens donc oublie pas. Pour payer le renouvelement, idéalement, demande la carte de banque CECI, mais si c'est pas possible et qu'il reste pas beaucoup de temps, paaies toi-même et envoies les détails au trésorier.
+	\begin{figure}[htp]
+		\centering
+		\includegraphics[width=0.6\textwidth]{img/NomsDomaine.png}
+	\end{figure}
+
 	\subsection{Redirection}
-		Il y a une redirection qui est faite avec le nom de domaine \textit{www.best-lln.be}. Il suffit d'aller dans le menu a gauche dans Noms de domaine $\rightarrow$ best-lln.be $\rightarrow$ Redirection. et la tu voix toutes les redirection, la plus part sont en lien avec le DNS ou les CNAME donc ne t'en occupe pas. Tu peux en ajouter une nouvelle avec \textit{Ajouter une redirection} a droite.
+		Avant on passait par le menu \textit{Redirection} mais maintenant ça ne fonctionne plus qu'on est pas vraiment hégergé chez eux.
+		\begin{figure}[htp]
+			\centering
+			\includegraphics[width=0.5\textwidth]{img/OVH-Redirect.png}
+		\end{figure}
+\newpage
+		On passe donc maintenant par un petit fichier sur l'hébergement gratuit associer au nom de domaine. Pour ça tu sur l'hébergement associé à \textit{www.best-lln.eu} $\Rightarrow$ \textit{FTP - SSH} $\Rightarrow$ \textit{FTP Explorer}
+		\begin{figure}[htp]
+			\centering
+			\includegraphics[width=0.6\textwidth]{img/FTP-Explorer.png}
+		\end{figure}
+
+		Il faut se connecter avec les identifiants que je te donnerais ou bien tu peux les réinitialiser. Ensuite tu vas dans le dossier \textit{www} $\Rightarrow$ \textit{.htaccess}. Et dans ce fichier, tu peux modifier les règles de redirection.
+		\begin{figure}[htp]
+			\centering
+			\includegraphics[width=0.6\textwidth]{img/htaccess.png}
+		\end{figure}
 		
 	\subsection{Autre}
-		Il y a plein d'autre fonctionnalité sur OVH tels que voire le trafic sur le site etc. Hesite pas a visiter et google les ton amis et les anciens IT aussi
+		Il y a plein d'autres fonctionnalités sur OVH tels que voire le trafic sur le site etc. Hésite pas a visiter et Google les ton amis et les anciens IT aussi.
 		
 \section{Github}
-	Depuis 2023 le CECI-BEST possède une github qui est nécessaire pour les Hackhaton qui sont organisé. La responsabilité est techniquement celle de l'IT qui devra aller voire les différent groupes afin de s'ajouter sur le git et garder ainsi une archive. Vous pouvrez aussi les télécharger si vous avez peur que il vont disparetre
-	
-	les identifiant sont sur le drive et sinon vous pouvez demander a un ancien IT ou a la PR qui normalement doit les connaitres.
-
+	Depuis 2023 le CECI-BEST possède une Github qui est nécessaire pour récupérer les projets des PAX des différents Hackathons. La responsabilité est techniquement celle de l'IT qui devra aller voir les différents groupes afin de s'ajouter sur le git (ou du moins de les mettre en favoris) et garder ainsi une archive. Vous pouvrez aussi les télécharger si vous avez peur qu'ils disparaîssent. 
 	Sur le github, il y a moyen des créer des "dossier" qui comporte different repo github. il suffit d'en créer un par année et de rajouter les repos dedans. Cela est possible avec le syteme "favoris".
-	
 	Google est ton amis et regarde comment c'est fait avant.
 	
-\section{Changement proprio Wordpress}
-	A faire avec l'ancien IT
-	\begin{enumerate}
-		\item Ancien IT ajoute le nouveau IT dans les responsable du Wordpress via l’onglet Utilisateurs de l’interface Wordpress
+\section{Transfert des différents comptes/identifiants}
+	Pour tous les identifiants demande à l'ancien IT.
+	\subsection{Addresse mail}
+		C'est un peu le plus important car c'est sur le drive de ce mail que se trouve le site. Tu en auras aussi besoin pour les autres comptes et tu peux l'utiliser si tu as besoin de créer un compte sur un autre site.
+	\subsection{OVH}
+		\begin{enumerate}
+			\item Compte OVH: Le principal pour gérer les noms de domaines et redirections.
+			\item FTP Explorer: Tu as besoin d'identifiants pour pouvoir se connecter à l'hébergement pour les redirections.
+		\end{enumerate}
 
-		\item Le nouveau IT donne quand a lui sont adresse mail et sont identifiant
-	\end{enumerate}
-	
-
-\section{Changement proprio OVH}
-	\begin{enumerate}
-		\item Le nouvel IT se crée un compte avec son adresse perso (ou BEST comme il veut)
-		\item le nouvel IT donne sont identifiant a l'ancien IT (truc du genre aa123456-ovh)
-		\item L’ancien gestionnaire change les contacts pour l’hébergement, emails, zone dns et domaine dans son espace OVH (Plus > Gérer les contacts)
-		\item Confirmation par mail des 2 coté
-	\end{enumerate}
+	\subsection{Github}
+		Pour Github, tu peux toujours rajouter ton mail perso en address secondaire.\footnote{Ne pas mettre la mailing list du board en addresse sinon tout le monde reçoit tous les mails. Tout le monde se plaindra, c'est du vécu.}
 	
 \section{Hacked}	
 	Il est déja arrivé plusieur fois que on se soit fait Hacker. On parle plus d'un malware qui redirige notre site vers un site de scam. Souvent c'est parceque une script Js a été ajouté dans le header, il font donc le retrouver et le retirer.
 
-Le plus souvent les raisons de ce problèmes  ne sont pas de vous mais de Wordpress et plus particulièrement Elementor qui laisse des breches de sécurité et qui permet au hacker de se connecter au compte. Il faut donc bien faire attention durant les grosse mise-a-jour et voire les différente modification. Et aussi peut etre un peu attendre avant pour voir si il font pas des mise-a-jour de la sécurité juste apres.
+	Normalement ça ne devrait plus arriver vu qu'on est chez Google maintenant.
 	
-	Verifier aussi de temps-en-temps si des comptes ne se sont pas rajouter, si c'est le cas, changer tous de suite les mots-de-passe. Ajouter aussi une authentification a double facteur.
+	Assez basique mais vérifie aussi de temps-en-temps s'il n'y a pas de connexions louches, si c'est le cas, changer tous de suite les mots-de-passe. N'hésite pas à ajouter aussi une authentification a double facteur.
 	
-\section{PHP}
-	Notre site est sous PHP avec wordpress, le soucis est que c'est voué a disparaitre, PHP n'est plus aussi sécurisé et utile que avant. Donc petit conseille de ma part. Continuer de garder, et si un jour celui-ci est mort, ne refaite pas un Wordpresse et passer a autre chose. Il est peut etre possible d'utiliser Odoo gratuitement et même avoir un partenaria avec eu justement.
-
-
+\section{Pour le futur}
+	Notre site est donc sous GoogleSites mais tu le remarqueras très vite que tu es assez limité dans la création. C'est suffisant pour le minimun requis pour notre site mais si tu veux plus de personalisation et/ou ajouter d'autres choses sur le site, il faudra surêment passer par une autre solution mais ça je te laisse y réfléchir.
 
 \section{Poste}
 
-	IT est un poste qui selon certaines personnes ne sert a rien ou ne travaille pas. Peut importe ce que tu dit il diront que tu ne fais rien et cela est normal car ce que tu fais n'est pas directement visible
-	
-	Donc faut pas le prendre mal quand il disent que tu fais riens.
-	\subsection{Slides}
-	
-	l'IT est aussi responsable du rétroprojecteur qui est au local et qu'il faut prendre pour afficher les slides au réunions. rien de tres sorcier il suffit de demander au gens de mettre les slides dans ton fichiers du drives
+	IT est un poste qui selon certaines personnes ne sert a rien ou ne travaille pas. Peut importe ce que tu dit il diront que tu ne fais rien et cela est normal car ce que tu fais n'est pas directement visible.
+	Donc faut pas le prendre mal quand ils disent que tu ne fais rien.
+	\subsection{Slides}	
+	L'IT est aussi responsable du rétroprojecteur qui est au local et qu'il faut prendre pour afficher les slides aux réunions s'il n'y pas d'écran dans la salle. Rien de très sorcier il suffit de demander au gens d'aller dans ton dossier IT sur le drive et de remplir les slides, hésite pas à créer les slides dès qu'on reçoit l'ODJ \footnote{ça paraît tout con mais certain sont très vites perdus si les slides sont pas créées à l'avance}.
 	
 	\subsection{Wooclap}
-		Lors de gros vote important (proposale, membership ...) vous utiliserez un wooclap afin d'avoir un systheme de votes pour chaque membre de la réunions. Il suffit de creer un comptes (je conseille d'utiliser l'adresse UCL car tu as le prémium gratuit et donc un nombre illimité de wooclap).
+		Il y a deux moments où tu en auras besoin:
+		\begin{enumerate}
+			\item Réunions classiques: quand on élit une core team pour un event (Hackathon ou EC).
+			\item LGA: là il en faut pas mal (memberships, proposals, ...).
+		\end{enumerate}
+		Dans les deux cas, il faut que tu les prépare à l'avance. Quand tu en as beaucoup à faire, tu peux passer par un excel, tu écris une question puis tu l'export en excel tu peux rapidement enchainer les questions.
+		Pour savoir quoi mettre et les modalités de vote, il y a un document \textit{Méthode de vote pour les nuls} sur le drive (dans le dossier IT).
+		Pour le compte Wooclap, utilise ton addresse UCL comme ça tu n'as pas de limites.
 		
 	\subsection{Clown}
-		L'IT est la personne la plus drole du Board, c'est comme ça c'est la regles, il faut donc tous le temps dires des blagues et faire des bullshit marrant. Attention il faut savoir etre sérieux quand il le faut
+		L'IT est la personne la plus drôle du Board, c'est comme ça c'est la règles, il faut donc tous le temps dires des blagues et faire des bullshit marrants. Attention il faut savoir etre sérieux quand il le faut.
 	
 	\subsection{\textcolor{red}{TRITOUFS}}
 		
-		La tradition veut que les IT soient des gens expérimentés dans l’art de BWAR. il faut donc se spécialisé dans l’art du Tritouf au fil de mon mandat, c’est pourquoi c’est un plus pour ton poste si tu sais bien en faire (Ca va chier au rachat). 
+		La tradition veut que les IT soient des gens expérimentés dans l’art de BWAR. il faut donc se spécialiser dans l’art du Tritouf au fil de ton mandat, c’est pourquoi c’est un plus pour ton poste si tu sais bien en faire (ça va chier au rachat). 
 		
 		\begin{enumerate}
 			\item Se munir de trois gobelets (réutilisables \#GreenTeam) 
@@ -206,7 +196,6 @@ Le plus souvent les raisons de ce problèmes  ne sont pas de vous mais de Wordpr
 
 
 		De nombreuses séances d'apprentissage seront organisées pendant le Summer Course ainsi que des séances d’examen. Bonne chance. 
-
 
 \section{Conclusion}
 	Le post IT c'est le meilleur
